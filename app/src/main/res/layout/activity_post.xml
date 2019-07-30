@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".PostActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/add_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_bg"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+    </android.support.v7.widget.Toolbar>
+
+    <ProgressBar
+        android:id="@+id/postbar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/post_qstn_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/add_toolbar"
+        android:src="@drawable/image"/>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_below="@id/post_qstn_image"
+        android:weightSum="3">
+        <ImageView
+            android:id="@+id/post_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_camera_alt_black_24dp"/>
+        <ImageView
+            android:id="@+id/post_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_insert_photo_black_24dp"/>
+        <ImageView
+            android:id="@+id/post_mic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_mic_black_24dp"/>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/dropdown_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:backgroundTint="@color/materialYellow"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:id="@+id/post_description"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/dropdown_list"
+        android:gravity="center"
+        android:hint="@string/post_your_question_query"
+        android:background="@drawable/btn_stroke"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/post_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false"
+        android:text="@string/submit_question"
+        android:background="@drawable/toolbar_bg"
+        android:textColor="@color/backgroundColor"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

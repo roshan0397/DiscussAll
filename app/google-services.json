@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "24648030071",
+    "firebase_url": "https://discussall-f3f89.firebaseio.com",
+    "project_id": "discussall-f3f89",
+    "storage_bucket": "discussall-f3f89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24648030071:android:7af9d22674107043",
+        "android_client_info": {
+          "package_name": "discuss.discussall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24648030071-el75iqilu6hjs9tpnlu010n823vb5l8k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "discuss.discussall",
+            "certificate_hash": "53f783cf9c739e24d4410d107e5d6b994157cb6a"
+          }
+        },
+        {
+          "client_id": "24648030071-6safoit0toadk0ipsu7eno6ouc31a5br.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt0-aJZ7rRgAey8dXIAdd-d2W4pNSaGtU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24648030071-6safoit0toadk0ipsu7eno6ouc31a5br.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

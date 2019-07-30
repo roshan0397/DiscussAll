@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="backgroundColor">#FCFCFC</color>
+    <color name="lightGrayLine">#ededed</color>
+    <color name="deepPurple">#7C4DFF</color>
+    <color name="materialYellow">#FFB300</color>
+    <color name="materialGreen">#00BFA5</color>
+    <color name="pinkAccent">#FF4081</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="deepOrange">#F4511E</color>
+    <color name="deepBrown">#6D4C41</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#c0bdbd</color>
+    <color name="translucent_black">#44000000</color>
+    <color name="translucent">#00000000</color>
+</resources>

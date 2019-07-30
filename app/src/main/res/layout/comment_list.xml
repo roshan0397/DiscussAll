@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/comment_cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="2dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="40">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/comment_img"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@drawable/dp"
+                android:padding="5dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/comment_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_weight="38"/>
+
+            <TextView
+                android:id="@+id/comment_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/date"
+                android:textColor="@color/gray"
+                android:padding="5dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/comment_answerImg"
+            android:layout_below="@id/ml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/final_comment"
+            android:layout_below="@id/comment_answerImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/your_comment_appears_here"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:padding="5dp"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

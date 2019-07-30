@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".AllPostActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/all_posts_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolbar_bg"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/no_posts_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No question exists in this section!"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:visibility="gone"/>
+
+    <HorizontalScrollView
+        android:id="@+id/all_ll"
+        android:scrollbarThumbHorizontal="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/all_posts_toolbar">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp">
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/deepPurple"
+                android:text="@string/view_all"
+                android:textAllCaps="false"
+                android:textColor="@color/backgroundColor"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/pinkAccent"
+                android:text="Engineering"
+                android:textAllCaps="false"
+                android:textColor="@color/backgroundColor"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/materialGreen"
+                android:text="Management"
+                android:textAllCaps="false"
+                android:textColor="@color/backgroundColor"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/materialYellow"
+                android:text="Commerce"
+                android:textAllCaps="false"
+                android:textColor="@color/backgroundColor"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/deepBrown"
+                android:text="Medical"
+                android:textAllCaps="false"
+                android:textColor="@color/backgroundColor"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/deepOrange"
+                android:text="Designing"
+                android:textAllCaps="false"
+                android:textColor="@color/backgroundColor"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/deepPurple"
+                android:text="Law"
+                android:textAllCaps="false"
+                android:textColor="@color/backgroundColor"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/pinkAccent"
+                android:text="GATE"
+                android:textAllCaps="true"
+                android:textColor="@color/backgroundColor"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/materialGreen"
+                android:text="GRE"
+                android:textAllCaps="true"
+                android:textColor="@color/backgroundColor"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/materialYellow"
+                android:text="Bank Exams"
+                android:textAllCaps="false"
+                android:textColor="@color/backgroundColor"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                tools:ignore="ButtonStyle" />
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/button"
+                android:backgroundTint="@color/deepBrown"
+                android:text="Civil Services"
+                android:textAllCaps="false"
+                android:textColor="@color/backgroundColor"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/all_posts_swipe"
+        android:layout_below="@id/all_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/questions_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp">
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

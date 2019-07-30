@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DiscussAll</string>
+    <string name="no_question_exists_in_this_section">No question exists in this section!</string>
+    <string name="view_all">View All</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="your_name">Your Name</string>
+    <string name="need_a_new_account">Need A New Account?</string>
+    <string name="login_to_my_account">Login To My Account?</string>
+    <string name="you_have_not_posted_anything_yet">You haven\'t posted anything yet!</string>
+    <string name="submit_question">Submit Question</string>
+    <string name="post_your_question_query">Post your question/query...</string>
+    <string name="logout">Logout</string>
+    <string name="delete_my_account">Delete My Account</string>
+    <string name="give_us_feedback">Give Us Feedback</string>
+    <string name="share_this_app">Share This App</string>
+    <string name="terms_and_privacy_policy">Terms And Privacy Policy</string>
+    <string name="change_my_password">Change My Password</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="posts">Posts</string>
+    <string name="username">Username</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
+    <string name="create_a_new_account">Create A New Account</string>
+    <string name="no_posts_yet">No posts yet!</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="your_comment_appears_here">Your comment...</string>
+    <string name="change_password">Change Password</string>
+    <string name="new_password">New Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="are_you_sure_to_delete_account">Are You Sure To Delete Account</string>
+    <string name="deleting_your_account_will_delete_your_profile_permanently">Deleting your account will delete your profile permanently</string>
+    <string name="this_will_not_delete_any_questions_posted_by_you_so_far_to_do_so_you_can_delete_it_from_your_posts">This will not delete any questions posted by you so far. To do so, you can delete it from your posts.</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="if_you_are_sure_and_want_to_delete_your_account_then_proceed">If you are sure and want to delete your account, then proceed.</string>
+</resources>
